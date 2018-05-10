@@ -20,7 +20,7 @@ keys = dictionary.keys
       keys.each do |key|
         if word == key
           word = dictionary[key]
-          binding.pry
+
         end
       end
     end
