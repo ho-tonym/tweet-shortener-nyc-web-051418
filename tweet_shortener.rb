@@ -17,8 +17,7 @@ def word_substituter(long_string)
     array_strings.each do |word|
       dictionary.each do |key, value|
         if word == key
-          word = dictionary[key]
-          binding.pry
+          array_strings.gsub!(/#{word}/i, dictionary[key])
         end
       end
     end
