@@ -35,6 +35,6 @@ def bulk_tweet_shortener(tweets_array)
   new_array = tweets_array.map do |element|
     word_substituter(element)
   end
-new_array
+puts new_array
 
 end
