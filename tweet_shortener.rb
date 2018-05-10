@@ -18,6 +18,7 @@ def word_substituter(long_string)
       dictionary.each do |key, value|
         if word == key
           word = dictionary[key]
+          binding.pry
         end
       end
     end
