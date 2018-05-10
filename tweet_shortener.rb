@@ -22,7 +22,7 @@ def word_substituter(long_string)
       end
     end
 
-array_strings.join(" ")
+puts array_strings.join(" ")
 
 end
 
