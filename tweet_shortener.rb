@@ -33,8 +33,7 @@ word_substituter("Hey guys, can anyone teach me how to be cool? I really want to
 
 def bulk_tweet_shortener(tweets_array)
   new_array = tweets_array.map do |element|
-    word_substituter(element)
+    puts word_substituter(element)
   end
-puts new_array.flatten!
 
 end
