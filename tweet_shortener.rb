@@ -16,6 +16,7 @@ def word_substituter(long_string)
   array_strings = long_string.split(" ")
     array_strings.each do |word|
       dictionary.each do |key, value|
+        binding.pry
         if word == key
           word = dictionary[key]
         end
