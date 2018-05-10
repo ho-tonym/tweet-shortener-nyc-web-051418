@@ -16,14 +16,6 @@ require "pry"
 def word_substituter(long_string)
 
 
-  array_strings = long_string.split(" ")
-    array_strings.each_with_index do |word, index|
-      @dictionary.each do |key, value|
-        if word == key
-          array_strings[index] = dictionary[key]
-        end
-      end
-    end
 
  array_strings.join(" ")
 
