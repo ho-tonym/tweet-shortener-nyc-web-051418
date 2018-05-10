@@ -11,6 +11,7 @@ $dictionary = {
 'you' => 'u',
 "at" => "@",
 "and" => "&"
+"For" => "4"
 }
 
 def word_substituter(long_string)
