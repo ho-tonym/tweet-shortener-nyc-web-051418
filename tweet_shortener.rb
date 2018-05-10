@@ -13,14 +13,11 @@ def word_substituter(long_string)
   "and" => "&"
   }
 
-keys = dictionary.keys
-
   array_strings = long_string.split(" ")
     array_strings.each do |word|
-      keys.each do |key|
+      dictionary.each do |key, value|
         if word == key
           word = dictionary[key]
-
         end
       end
     end
